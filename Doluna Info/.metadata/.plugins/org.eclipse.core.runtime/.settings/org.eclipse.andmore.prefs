@@ -1,0 +1,8 @@
+design.structure.flyout.width=260
+eclipse.preferences.version=1
+org.eclipse.andmore.autoPickTarget=false
+org.eclipse.andmore.fixLegacyEditors=1
+org.eclipse.andmore.lintOnExport=false
+org.eclipse.andmore.lintOnSave=false
+org.eclipse.andmore.sdk=F\:\\Android\\android\\sdk
+org.eclipse.andmore.xmlEditor=true

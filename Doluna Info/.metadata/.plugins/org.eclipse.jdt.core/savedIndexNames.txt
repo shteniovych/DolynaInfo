@@ -1,0 +1,3 @@
+INDEX VERSION 1.129+D:\Doluna Info\.metadata\.plugins\org.eclipse.jdt.core
+3907988602.index
+3824679697.index

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="ua.vilish.dolunainfo"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="19"
+        android:targetSdkVersion="19" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="ua.vilish.dolunainfo.MainActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name="SettingsActivity"></activity>
+        <activity android:name="TaxiActivity"></activity>
+        <activity android:name="TrainActivity"></activity>
+        <activity android:name="BusChoiseActivity"></activity>
+        <activity android:name="NotesActivity"></activity>
+        <activity android:name="IFDirectionActivity"></activity>
+        <activity android:name="LvivDirectionActivity"></activity>
+        <activity android:name="InternationalTransportActivity"></activity>
+        <activity android:name="CommuterFlightsActivity"></activity>
+        <activity android:name="TranscarpDirectionActivity"></activity>
+        <activity android:name="RemDedActivity"></activity>
+    </application>
+
+</manifest>

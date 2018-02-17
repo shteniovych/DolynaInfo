@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+<ScrollView 
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <Button
+            android:id="@+id/btnRemark"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:drawableLeft="@drawable/remark"
+            android:text="Надіслати зауваження" />
+        <Button
+            android:id="@+id/btnVK"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:drawableLeft="@drawable/vk"
+            android:text="Група у ВК" />
+         <Button
+            android:id="@+id/btnEstimate"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:drawableLeft="@drawable/estimate"
+            android:text="Оцінити програму в Google Play" />
+         <Button
+            android:id="@+id/btnSayt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:drawableLeft="@drawable/sayt"
+            android:text="Перейти на сайт компанії" />
+          <Button
+            android:id="@+id/btnApplause"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:drawableLeft="@drawable/applause"
+            android:text="Подякувати розробникам" />
+
+    </LinearLayout>
+</ScrollView>
+</LinearLayout>

@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+<ScrollView 
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <Button
+            android:id="@+id/btnRD"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:drawableLeft="@drawable/bus_icon"
+            android:text="Рем-Дед" />
+
+        <Button
+            android:id="@+id/bntIF"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:drawableLeft="@drawable/bus_icon"
+            android:text="Івано-Франківський напрямок" />
+
+        <Button
+            android:id="@+id/btnLviv"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:drawableLeft="@drawable/bus_icon"
+            android:text="Львівський напрямок" />
+
+        <Button
+            android:id="@+id/btnZAK"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:drawableLeft="@drawable/bus_icon"
+            android:text="Закарпатський напрямок" />
+
+        <Button
+            android:id="@+id/btnPrum"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:drawableLeft="@drawable/bus_icon"
+            android:text="Приміські рейси" />
+
+        <Button
+            android:id="@+id/btnInter"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:drawableLeft="@drawable/bus_icon"
+            android:text="Міжнародні перевезення" />
+
+    </LinearLayout>
+</ScrollView>
+</LinearLayout>

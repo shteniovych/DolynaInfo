@@ -1,0 +1,57 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="${relativePackage}.${activityClass}" >
+<ScrollView 
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+    <LinearLayout
+        android:id="@+id/linearLayout1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:orientation="vertical" >
+
+        <Button
+            android:id="@+id/btnBus"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:drawableLeft="@drawable/vikish_bus"
+            android:text="Розклад руху автобусів" />
+
+        <Button
+            android:id="@+id/btnTaxi"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:drawableLeft="@drawable/vikish_taxi"
+            android:text="Таксі" />
+        <Button
+            android:id="@+id/btnTrain"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:drawableLeft="@drawable/vikish_train"
+            android:text="Розклад руху поїздів" />
+        <Button
+            android:id="@+id/btnCafe"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:drawableLeft="@drawable/vikish_cafe"
+            android:text="Кафе" />
+        <Button
+            android:id="@+id/btnTel"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:drawableLeft="@drawable/vikish_phone"
+            android:text="Телефонний довідник" />
+        <Button
+            android:id="@+id/bntMap"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:drawableLeft="@drawable/vikish_mapa"
+            android:text="Карта міста" />
+
+    </LinearLayout>
+</ScrollView>
+</RelativeLayout>
